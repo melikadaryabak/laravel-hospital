@@ -1,0 +1,63 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: iransans;
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/iransans/eot/IRANSansWeb(FaNum).eot");
+    src: url("../fonts/iransans/eot/IRANSansWeb(FaNum).eot?#iefix") format("embedded-opentype"), /* IE6-8 */
+    url("../fonts/iransans/woff2/IRANSansWeb(FaNum).woff2") format("woff2"), /* FF39+,Chrome36+, Opera24+*/
+    url("../fonts/iransans/woff/IRANSansWeb(FaNum).woff") format("woff"), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url("../fonts/iransans/ttf/IRANSansWeb(FaNum).ttf") format("truetype");
+}
+
+body {
+    background-color: rgb(190, 216, 191);
+    font-family: iransans;
+}
+.logo-img {
+    width: 100px;
+}
+
+.logo-img-footer{
+    width: 270px;
+}
+.main-img {
+    height: 500px;
+    margin-top: 10px;
+}
+
+.prof-box-parent {
+    margin-top: 70px;
+}
+
+.prof-box-child-img {
+    gap: 20px;
+}
+
+.prof-box-child-text>h2 {
+    font-size: 40px;
+}
+
+.prof-box-child-text>div {
+    font-size: 25px;
+}
+
+.prof-box-child-img>img {
+    border-radius: 20px;
+}
+
+.foot-box {
+    background-image: url("../images/background-foot.jpg");
+    height: 400px;
+    margin-top: 70px;
+}
+
+.foot-box-child {
+    height: 400px;
+    opacity: 0.7;
+    background-color: rgb(0, 0, 0);
+}

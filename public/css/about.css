@@ -1,0 +1,69 @@
+body {
+    font-family: 'Vazir', sans-serif;
+    line-height: 1.8;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f7f8fa;
+}
+header {
+    /* background: linear-gradient(45deg, #28a745, #20c997); */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+section {
+    padding: 40px 20px;
+}
+section h2 {
+    color: rgb(85, 107, 96);
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+}
+.values, .team, .services, .testimonials {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.value, .team-member, .service, .testimonial {
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.value:hover, .team-member:hover, .service:hover, .testimonial:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+.value h3, .team-member h3, .service h3, .testimonial h3 {
+    margin-bottom: 10px;
+    color: #20c997;
+}
+footer {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+footer p {
+    margin: 0;
+}

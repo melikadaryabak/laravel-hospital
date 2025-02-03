@@ -1,0 +1,22 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.doctor-icon{
+ width: 120px;
+height: 120px;
+}
+.national-id-box , .form-info{
+    gap: 50px;
+    margin: 80px 100px 0px 0px;
+}
+.national-id-box-input , .national-id-box-info,
+.form-info-fname , .form-info-lname
+{
+    gap: 7px;
+}
+.form-info-submit{
+    width: 50px;
+    height: 35px;
+    margin: 60px 40px 0px 0px;
+}
